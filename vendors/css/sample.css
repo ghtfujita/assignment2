@@ -34,13 +34,29 @@ html {
       clear: both;
   }
 
-  header .left {
+  .leftnav {
       float: left;
   }
 
-  header .right {
-      float:right;
+  .rightnav {
+      float: right;
   }
+
+  div .left {
+      float: left;
+  }
+
+  div .right {
+      float: left;
+  }
+
+  /*header .left {
+  /*    float: left;
+  /*}
+
+  /*header .right {
+  /*    float:right;
+  /*}
   /* ここまでがheader部分の実装 */
   .main-header img {
       width: 25%;
